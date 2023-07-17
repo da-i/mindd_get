@@ -1,6 +1,10 @@
 # Mindd get
 A simple python script to interact with the moetiknaardedokter.nl API, and save the result in json or csv format.
 
+## Usage
+users need to provide their own auth key, and give it to the script with the --api-key flag. By default the script will pull all the available data to a json file.
+But this can be altered to csv with the --convert_to_csv flag. The start and end date are also setable and use a DD/MM/YYYY layout.
+
 Output of the --help flag:
 ```txt
 $python3 mindd_get.py --help
